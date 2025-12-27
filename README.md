@@ -13,7 +13,7 @@ This repository contains the source code and compiled version of my resume. It i
 * **`.gitignore`**: Ensures build artifacts (`.aux`, `.log`, etc.) remain local.
 
 ## How to Build Locally
-If you wish to compile this resume from source, you will need a LaTeX distribution (TeX Live or MacTeX) and the Lato font installed.
+If you wish to compile this resume from source, you will need a LaTeX distribution (TeX Live or MacTeX) and the Lato font installed. I used the homebrew solution on Mac.
 
 1. **Clone the repository:**
    ```bash
