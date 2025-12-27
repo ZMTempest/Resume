@@ -1,0 +1,177 @@
+\documentclass[10pt,a4paper]{article}
+
+% --- PACKAGES ---
+\usepackage{fontspec}
+\setmainfont{Lato}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fontawesome5} % Icons for social links
+\usepackage{hyperref}
+\usepackage{enumitem} % For list customization
+\usepackage{titlesec}
+\usepackage{multicol} % For two-column layout
+\usepackage[left=1.5cm, top=1.5cm, right=1.5cm, bottom=1.5cm]{geometry}
+
+% --- CUSTOMIZATIONS ---
+\pagestyle{empty} % No page numbers
+\setlength{\parindent}{0pt} % No paragraph indent
+\setlist{nosep, leftmargin=*} % More compact lists globally
+
+% Define a custom color for links
+\definecolor{linkcolor}{rgb}{0.1, 0.4, 0.7}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+}
+
+% Improved section headings with compact spacing
+\titleformat{\section}
+  {\large\bfseries\scshape\color{black!75}}
+  {}
+  {0em}
+  {}[\color{black!70}\hrule]
+\titlespacing*{\section}{0pt}{0.7mm}{2mm}
+
+% Subsection formatting to match main sections
+\titleformat{\subsection}
+  {\normalsize\bfseries\scshape\color{black!75}}
+  {}
+  {0em}
+  {}[\color{black!70}\hrule height 0.3pt]
+\titlespacing*{\subsection}{0pt}{0.7mm}{2mm}
+
+% Compact project/bullet environment
+\newenvironment{project}{
+    \begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep, labelsep=1.2mm, itemsep=0mm, topsep=0mm]\small
+}{
+    \end{itemize}
+}
+
+% --- DOCUMENT START ---
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\Huge \bfseries Muhammad Zawad Mubassher}\vspace{6pt}\\
+    {\small
+    Kuala Lumpur, Malaysia \textbullet{} +60xxxxxxxx \textbullet{} \href{mailto:zawad.m001@gmail.com}{zawad.m001@gmail.com}\\
+    \href{https://www.linkedin.com/in/zawad-mubassher/}{\faIcon[regular]{linkedin}\, www.linkedin.com/in/zawad-mubassher} \quad \href{https://github.com/ZMTempest}{\faIcon[brands]{github}\, https://github.com/ZMTempest}
+    }
+    \rule{\linewidth}{0.5mm}
+\end{center}
+
+% --- EDUCATION ---
+\section*{EDUCATION}
+\noindent\textbf{Bachelor of Science (Hons.) in Physics }\hfill\textit{October 2022 -- Present}\\
+\noindent\textit{Universiti Malaya}\hfill \textit{Kuala Lumpur, Malaysia}\\
+\noindent\textbf{CGPA:} 3.79\\
+\noindent\textbf{Achievements:} Dean's List \\
+
+\noindent\textbf{Scholastic Assessment Test (SAT)}\hfill\textit{December 2021}\\
+\noindent\textbf{Score:} 1560\\
+
+\noindent\textbf{International Advanced Levels (IAL) }\hfill \textit{October 2020}\\
+\noindent\textit{Maple Leaf International School}\hfill \textit{Dhaka, Bangladesh}\\
+\noindent\textbf{GPA:} 5.00\\
+\noindent\textbf{Grades:} 4A*s\\
+\noindent\textbf{Achievements:} School Valedictorian, The Daily Sun Award\\
+
+\noindent\textbf{International General Certificate of Secondary Education (IGCSE)}\hfill \textit{June 2018}\\
+\noindent\textit{Maple Leaf International School}\hfill \textit{Dhaka, Bangladesh}\\
+\noindent\textbf{GPA:} 5.00\\
+\noindent\textbf{Grades:} 8A*s, 2A\\
+\noindent\textbf{Achievements:} World Highest in Mathematics, Edexcel Award, The Daily Star Award\\
+
+
+\vspace{0.7mm}
+% --- SKILLS ---
+\section*{SKILLS}
+\begin{itemize}
+    \item \textbf{Programming Languages:} Python, JavaScript
+    \item \textbf{Technologies \& Frameworks:} Arduino UNO, ESP8266 NodeMCU V3
+    \item \textbf{Software Tools:} Visual Studio Code, Spyder, Google Colab, LaTeX
+    \item \textbf{Languages:} English (IELTS 8.0), Bengali (1st Language), German (A1 Certification), Spoken Hindi and Urdu, Basic Bahasa Melayu
+    \item \textbf{Other Skills:} Adobe Photoshop, Adobe Lightroom, Adobe InDesign, Adobe Illustrator, MS Office Suite, Canva, DaVinci Resolve, Notion
+\end{itemize}
+\vspace{2mm}
+
+
+\vspace{0.7mm}
+% --- PROJECTS ---
+\section*{PROJECTS}
+\vspace{1mm}
+\textbf{Investigating the Effect of Telescope Array Configuration on Imaging and Modelling of Active Galactic Nuclei Jets Using DIFMAP} \textbar{} \textit{DIFMAP, Notion}\hfill\textit{October 2025 -- Present}\\[1mm]
+Final Year Project (Undergraduate).\\ 
+Supervised by: Dr. Juan Carlos Algaba Marcos.\\[1mm]
+This project investigates how variations in VLBA interferometric baseline coverage influence the reliability and accuracy of AGN jet imaging. Working under the supervision of Dr. Juan Carlos Algaba Marcos, I analyse visibility data under different array configurations, evaluate imaging robustness, and model jet structures using DIFMAP. The project has strengthened my skills in Python-based data preprocessing, elementary C through terminal use, and advanced DIFMAP operations including CLEANing, self-calibration, and model-fitting. It has also provided substantial hands-on experience with VLBI imaging pipelines and radio astronomy analysis techniques.
+\vspace{3.2mm}
+
+\textbf{NETR -- Solar Voices} \textbar{} \textit{Solar technology, Canva, MS Office Suite, DaVinci Resolve}\hfill\textit{March 2025 -- June 2025}\\[0.8mm]
+As part of a SULAM community development initiative, I helped design and execute an outreach programme introducing the benefits of solar energy to the Taman Setapak community. The project involved producing educational infographics, delivering public talks, and conducting practical demonstrations to promote renewable energy awareness. Working with a multidisciplinary team, I coordinated scheduling and content creation while refining my skills in graphic design, project planning, video editing, and community engagement. The project offered valuable experience in communicating technical concepts to non-technical audiences.
+\vspace{3.2mm}
+
+\textbf{Net Nimbus} \textbar{} \textit{Arduino UNO, ESP8266 NodeMCU V3, Telegram Bots, Basic Electronics}\hfill\textit{October 2023 -- February 2024}\\[0.8mm]
+Net Nimbus is a two-person IoT project that enables remote control of household appliances through a custom Telegram bot, allowing access from anywhere with an internet connection. The system integrates an Arduino UNO with an ESP8266 NodeMCU to execute commands sent through the bot, while the underlying electronics manage safe switching of household devices. Through this project, I gained practical experience in microcontroller programming, basic electronics, and internet-based IoT communication, along with hands-on development of a functional, reliable home-automation prototype.
+\vspace{3mm}
+
+
+\vspace{0.7mm}
+% --- EXTRACURRICULAR ACTIVITIES ---
+\section*{EXTRACURRICULAR ACTIVITIES}
+\textbf{General Member }\textbar{} Persatuan Fizik UM (PerFUM) \hfill \textit{October 2022 -- Present}\\ 
+\noindent\textit{Universiti Malaya}
+\begin{project}
+    \item Fostered a teamwork friendly environment working as a volunteer in events.
+    \item Lead of Logistics for PERFUM Industrial Visit 2024 to MIMOS, arranged catering and transport for 30 participants while ensuring smooth integrated workflow with other PERFUM departments.
+\end{project}
+\vspace{2mm}
+
+\textbf{Vice-President} \textbar{} MLIS Science Club \hfill \textit{2018 -- 2020}\\
+\noindent\textit{Maple Leaf International School}
+\begin{project}
+    \item Organised the school’s inaugural Science Olympiad and coordinated the annual Science Fair.
+    \item Led a team of student volunteers, developing strong task-delegation skills while supporting individual members’ needs.
+    \item Acted as liaison with the school board, ensuring smooth communication and alignment between institutional requirements and club objectives.
+\end{project}
+\vspace{2mm}
+
+\textbf{Founding Officer} \textbar{} MLIS Robotics Club \hfill \textit{2019 -- 2020}\\
+\noindent\textit{Maple Leaf International School}
+\begin{project}
+    \item Established the school’s first Robotics Club, fostering a culture of creativity, problem-solving, and hands-on STEM learning.
+    \item Organised robotics and Arduino workshops, as well as the school-wide Robotics Competition, managing participation of over 1,200 students.
+    \item Implemented a round-table leadership model to reduce internal friction, promote collaboration, and help members achieve their best work.
+\end{project}
+\vspace{2mm}
+
+\textbf{Champion} \textbar{} Academia English Medium Mathematics Olympiad \hfill \textit{2019}
+\begin{project}
+    \item Senior category champion for the nationwide competition
+\end{project}
+\vspace{2mm}
+
+\textbf{Bronze Medalist} \textbar{} International Youth Maths Challenge \hfill \textit{2019}
+\begin{project}
+    \item Achieved Bronze in the acclaimed international mathematics competition.
+\end{project}
+\vspace{2mm}
+
+\textbf{Participant} \\
+National Mathematics Olympiad, National Physics Olympiad, National Chemistry Olympiad, 3rd Annual Astrophysics Carnival \hfill \textit{2018-2020}
+\begin{project}
+    \item Secured national round positions
+\end{project}
+\vspace{2mm}
+
+\textbf{Others}
+\begin{project}
+    \item UM POW 3MT Presenter
+    \item St. Joseph Math Olympiad Speedcubing top 10
+    \item Intra-School Chess Champion
+\end{project}
+\vspace{2mm}
+
+
+
+\end{document}
