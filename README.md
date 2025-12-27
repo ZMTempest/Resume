@@ -7,6 +7,8 @@ This repository contains the source code and compiled version of my resume. It i
 
 [**Click here to download the latest PDF version**](Resume.pdf)
 
+I've omitted my phone number and specific address for obvious reasons. Feel free to reach out to me for more details!
+
 ## Project Structure
 * **`Resume.tex`**: Main LaTeX source code.
 * **`Resume.pdf`**: Compiled document.
